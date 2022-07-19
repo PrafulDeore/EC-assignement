@@ -7,7 +7,7 @@ export const Navbar=()=>{
 
     return(
         <div className="navbar">
-        <img className="Vlogo" src="./src/Images/LOGO.png" alt="" />
+        <img className="Vlogo" src="./src/Images/logo.jpg" alt="" />
         <div className="outerLink">
         <Link className="link" to="/">Login</Link>
         <Link className="link" to="/video">Video</Link>
