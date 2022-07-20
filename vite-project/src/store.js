@@ -2,6 +2,7 @@
 
 import { applyMiddleware, combineReducers, compose, createStore } from "redux";
 import thunk from "redux-thunk"
+import {SignupReducer} from "./Redux/Reducer/Signup"
 
 const composeEnhancers =
   typeof window === 'object' &&
@@ -17,7 +18,7 @@ const enhancer = composeEnhancers(
   // other store enhancers if any
 );
  const rootReducer=combineReducers({   //! 2.added line 
-    
+  SignupReducer
 
  })
  //For set ORDER DETAILS IN LOCAL STORAGE----->
