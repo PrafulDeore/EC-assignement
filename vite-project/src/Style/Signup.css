@@ -3,7 +3,7 @@
     padding: 0;
 }
 .outerForm{
-  border: 0px solid blue;
+  border: 1px solid rgb(252, 252, 252);
   width: 80%;
   margin: auto;
   font-family: 'Poppins', sans-serif;
@@ -25,7 +25,7 @@ font-family: 'Poppins', sans-serif;
 }
 .innerBox{
   border: 0px solid red;
-
+padding-bottom: 20px;
 
   height:max-content;
   padding: 0px;
@@ -58,6 +58,8 @@ font-family: 'Poppins', sans-serif;
 }
 .submit{
     margin-top: 2%;
+    margin-bottom: 20px;
+
     width: 30%;
     border: 0px solid rgb(206, 109, 109);
     display: flex;
