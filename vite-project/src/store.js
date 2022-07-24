@@ -3,6 +3,8 @@
 import { applyMiddleware, combineReducers, compose, createStore } from "redux";
 import thunk from "redux-thunk"
 import {SignupReducer} from "./Redux/Reducer/Signup"
+import {sliderReducer} from "./Redux/Reducer/sliderReducer"
+import { navabarSearch_Reducer } from "./Redux/Reducer/NavabarSearchReducer";
 
 const composeEnhancers =
   typeof window === 'object' &&
@@ -18,7 +20,9 @@ const enhancer = composeEnhancers(
   // other store enhancers if any
 );
  const rootReducer=combineReducers({   //! 2.added line 
-  SignupReducer
+  SignupReducer,
+  sliderReducer,
+  navabarSearch_Reducer
 
  })
  //For set ORDER DETAILS IN LOCAL STORAGE----->

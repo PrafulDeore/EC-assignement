@@ -11,8 +11,8 @@
 img{
   border: 0px solid rgb(44, 36, 36);
   display: flex;
-
-max-width: 20%;
+ 
+/* max-width: 20%; */
 }
 .signupName{
   border: 0px solid rgb(44, 36, 36);
@@ -20,6 +20,7 @@ max-width: 20%;
 font-weight: bolder;
 font-size: 1.5vW;
 font-family: 'Poppins', sans-serif;
+margin-top: -25px;
 
 
 }

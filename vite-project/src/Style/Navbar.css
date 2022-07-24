@@ -4,17 +4,33 @@
      display:flex;
      
 }
+.inputBoxx{
+    margin: 1vW;
+width:100vW;
+height: 4vW;
+font-size: 2vW;
+border-radius: 10px 10px;
+
+}
+.inputButton{
+    margin: 1vW;
+    width:9vW;
+    height: 4.1vW;
+    border-radius: 10px 10px;
+    font-size: 2vW;
+}
 .outerLink{
     border: 0px solid rgb(15, 15, 15);
      margin-left: 30vW;
-     width: 70vW;
-     justify-content: space-between;
+     
+     justify-content:right;
 }
 .link{
 margin: 10px 10px;
 text-decoration: none;
 font-size: 2.5vW;
 font-weight: bolder;
+color: white;
 }
 .link:active{
     color: red;

@@ -1,4 +1,5 @@
 import { Navbar } from "./Navbar"
+import { Sliderr } from "./Slider/Slider"
 
 export const Home=()=>{
     const User=JSON.parse(localStorage.getItem("UserInfo")) || ""
@@ -9,18 +10,13 @@ export const Home=()=>{
         console.log("Hello User")
 
     }
-
-
-
-
     return(
         <>
         <Navbar/>
 {
-    User?<h1>{`Hello ${User.username}`}</h1>:<h1>{`Hello User`}</h1>
+    User?<h5 style={{color:"white"}}>{`Hello ${User.username}`}</h5>:<h5 style={{color:"orange"}}>{`Hello User`}</h5>
 }
-        
+        <Sliderr/>
         </>
-        
     )
 }

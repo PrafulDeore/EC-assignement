@@ -16,7 +16,7 @@ const handleLogout=()=>{
         style={{border:"0px solid black",display:"flex"}}>
 
         <div className="navLinks" style={{border:"0px solid black",}}> 
-        <Link className="link" style={{display}} to="/home">Home</Link>
+        <Link className="link" to="/home">Home</Link>
         
         
         </div>

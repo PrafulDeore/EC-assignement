@@ -1,0 +1,82 @@
+.posterImage{
+    height: 400px;
+}
+
+.posterImage > img  {
+    width: 100%;
+    height: 100%; 
+}
+
+.posterImage__overlay {
+    position: absolute;
+    padding: 5rem;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .8s;
+}   
+
+.posterImage__overlay:hover {
+    opacity: 1;
+}
+
+.posterImage__title {
+    font-weight: 900;
+    font-size: 3vW;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.posterImage__runtime {
+    font-size: 2.5vW;
+    margin-bottom: 1rem;
+}
+
+.posterImage__rating {
+    margin-left: 3vW;
+}
+
+.posterImage__description {
+    font-style: italic;
+    font-size: 1vW;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    width: 50%;
+}
+
+.searchList{
+    border:0px solid rgb(136, 132, 132);
+    height: 400px;
+    width: 40%;
+    margin-left: 6vW;
+    margin-top: -2vW;
+    opacity: 10;
+    overflow: scroll;
+    position: absolute;
+    z-index: 50;
+    /* overflow-y: hidden; */
+    overflow-x: hidden; 
+}
+.searchList::-webkit-scrollbar {
+    display: none;
+}
+.searchDiv{
+    width: 100%;
+    height: 20%;
+    border: 1px solid rgb(206, 201, 201);
+    background-color: rgb(241, 241, 241);
+    display: flex;
+}
+
+.search_title{
+    color: rgb(11,24,41);
+    font-weight: 900;
+    font-size: 1.5vW;
+}

@@ -32,6 +32,7 @@ export const Profile=() => {
     return (
         <>
         <NavbarProfile/>
+       
             <Box
                 sx={{
                     width: "85%",
